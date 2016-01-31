@@ -7,7 +7,7 @@ export default function aukLanguage(app) {
         throw new Error('Missing config "availableLanguages"');
     }
 
-    defineLazyProperty(app.context, 'language', function() {
+    defineLazyProperty(app.context, 'language', function () {
         return this.acceptsLanguages(availableLanguages);
     });
 }
