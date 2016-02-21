@@ -1,6 +1,6 @@
 {
   "name": "auk-language",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "language context in auk server",
   "main": "lib/index.js",
   "scripts": {
